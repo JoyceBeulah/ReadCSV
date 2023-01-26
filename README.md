@@ -15,13 +15,12 @@ Print the number of rows using the length function(len).
 Print the number of coloumns using the same length function(len).
 ## PROGRAM:
 ```
-'''
-Program developed by:Samyuktha.S
-Reference number:22005276
+Program developed by:R.Joyce Beulah
+Reference number:22009334
 Python program to read a file from csv.
-'''
+
 import pandas as pd
-f=pd.read_csv('car.csv')
+f=pd.read_csv('cars.csv')
 print(f.head(10))
 print(f.tail())
 print("Row:",len(f.axes[0]))
@@ -29,7 +28,7 @@ print("Col:",len(f.axes[1]))
 ```
 
 ## OUTPUT:
-![output](./rag.png)
+![output](/ex6.png)
 
 ## RESULT:
 Thus the program is successfully executed.
